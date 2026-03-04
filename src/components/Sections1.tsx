@@ -12,12 +12,12 @@ const Header = () => {
       {/* Top Banner */}
       <div className="w-full bg-blue-600 text-white text-xs font-bold py-1.5 overflow-hidden whitespace-nowrap">
         <div className="animate-marquee inline-block">
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
-          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
+          <span className="mx-4">FÁCIL • PRÁTICO • ECONÔMICO • SUSTENTÁVEL • ABERTO 24 HORAS</span>
         </div>
       </div>
 
@@ -30,7 +30,10 @@ const Header = () => {
             className="h-10 md:h-12 w-auto object-contain"
             referrerPolicy="no-referrer"
           />
-          <span className="font-black text-xl text-slate-900 tracking-tight hidden sm:block">2 CLICKS LAVANDERIA</span>
+          <div className="hidden sm:flex items-center gap-2">
+            <span className="font-black text-xl text-slate-900 tracking-tight">2 CLICKS LAVANDERIA</span>
+            <span className="bg-blue-100 text-blue-700 text-[10px] font-black px-2 py-0.5 rounded-full whitespace-nowrap">24 HORAS</span>
+          </div>
         </div>
 
         {/* Desktop Nav */}
