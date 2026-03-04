@@ -45,7 +45,7 @@ const Pricing = () => {
           {/* Dois Cestos */}
           <div className="flex-1 bg-white rounded-[2.5rem] p-8 md:p-10 shadow-md border-2 border-blue-600 relative">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-black px-6 py-2 rounded-full uppercase tracking-wider">
-              MAIS POTENTE
+              MAIOR CAPACIDADE
             </div>
             <h3 className="text-2xl font-black text-slate-900 mb-2 mt-2">Dois Cestos</h3>
             <p className="text-slate-500 text-sm mb-8">Capacidade industrial para edredons King e grandes volumes.</p>
@@ -209,20 +209,19 @@ const FAQ = () => {
   const faqs = [
     { q: 'Como funciona o sistema da 2 Clicks?', a: 'É muito simples: você chega, coloca suas roupas no cesto medidor, realiza o pagamento no totem (Cartão ou Pix) e seleciona a máquina correspondente. O sabão e amaciante são liberados automaticamente.' },
     { q: 'Preciso levar meus próprios produtos?', a: 'Não! Nossas máquinas já são equipadas com dosagem automática de sabão e amaciante profissionais de alta qualidade, garantindo a melhor limpeza e perfume para suas roupas.' },
-    { q: 'Quanto tempo leva para lavar e secar?', a: 'Nossos ciclos são otimizados para sua praticidade. Em aproximadamente uma hora, você já pode ter suas roupas prontas para uso.' },
+    { q: 'Quanto tempo demora?', a: 'O ciclo de lavagem dura aproximadamente 35 minutos. Já o ciclo de secagem leva em média 45 minutos, dependendo do volume e do tipo de tecido. Em pouco mais de 1 hora você sai com suas roupas limpas, secas e prontas para usar.' },
     { q: 'Posso lavar edredons de casal ou king?', a: 'Sim! Nossas máquinas de \'Dois Cestos\' possuem capacidade industrial, sendo perfeitas para edredons, cobertores pesados e grandes volumes de roupa.' },
     { q: 'Quais as formas de pagamento aceitas?', a: 'Aceitamos cartões de débito, crédito e Pix. Tudo é feito de forma rápida e segura diretamente no nosso totem de autoatendimento.' },
     { q: 'A lavanderia realmente funciona 24 horas?', a: 'Sim! Estamos abertos todos os dias da semana, incluindo domingos e feriados, 24 horas por dia, para que você lave suas roupas no horário que for melhor para você.' },
     { q: 'O que é a esterilização UV?', a: 'É uma tecnologia de ponta que utiliza luz ultravioleta para eliminar 99.9% de ácaros, fungos e bactérias das suas roupas durante o processo, garantindo máxima higiene.' },
-    { q: 'Como funciona o sistema de cashback?', a: 'É nosso programa de fidelidade: ao acumular R$ 16,00 de crédito para utilizar em uma lavagem extra de um cesto.' },
-    { q: 'Posso utilizar apenas o ciclo de secagem?', a: 'Com certeza! Você pode trazer suas roupas já lavadas de casa e utilizar apenas nossas secadoras profissionais para deixá-las macias e prontas para guardar.' },
+    { q: 'Como funciona o cashback?', a: 'A cada R$ 160,00 acumulados no mês, você recebe R$ 16,00 em crédito para utilizar no mês seguinte. O benefício é automático e pode ser usado em qualquer serviço da unidade.' },
+    { q: 'Por que não vemos muita espuma nas máquinas na hora da lavagem?', a: 'Utilizamos produtos profissionais de alta performance, formulados para produzir menos espuma e garantir o funcionamento ideal dos equipamentos. Menos espuma não significa menos limpeza — pelo contrário, garante maior eficiência na lavagem e melhor enxágue das peças.' },
     { q: 'Qual o limite de roupas por máquina?', a: 'Para garantir a qualidade da lavagem, você deve respeitar a marca de limite indicada no cesto medidor. Não aperte as roupas; elas devem ficar soltas para que a água e os produtos circulem.' },
     { q: 'A mesma máquina lava e seca?', a: 'Não. As máquinas de baixo são lavadoras e as de cima são secadoras. Após a lavagem, é necessário transferir as peças para a secadora para finalizar o processo.' },
     { q: 'Fica alguém na loja para ajudar?', a: 'Não temos atendimento presencial fixo na unidade. Porém, oferecemos atendimento humanizado através do interfone de fácil acesso na loja e também plantão via WhatsApp, para auxiliar você sempre que precisar.' },
     { q: 'Posso deixar minhas roupas para vocês lavarem?', a: 'Sim, é possível. Mediante contato prévio e pagamento de taxa extra de serviço cobrado por cesto, podemos realizar o processo para você com prazo de entrega em até 24h.' },
     { q: 'Vocês fazem delivery?', a: 'Não realizamos delivery próprio. Mas você pode utilizar o aplicativo de entregas da sua preferência para enviar e receber suas roupas. Recebemos e despachamos para você conforme combinado.' },
     { q: 'Precisa agendar horário?', a: 'Não. O sistema é totalmente self-service, basta chegar e usar.' },
-    { q: 'Quanto tempo demora?', a: 'Em aproximadamente uma hora entre lavagem e secagem. Nossos ciclos são ultra rápidos e eficientes.' },
     { q: 'Tem estacionamento?', a: 'Sim! Oferecemos estacionamento exclusivo para nossos clientes em nossas unidades.' },
     { q: 'Posso usar apenas para secar?', a: 'Pode trazer somente para secar, sim! Porém, recomendamos que as peças sejam centrifugadas duas vezes quando lavadas em máquinas domésticas, para garantir melhor desempenho na secagem. Utilize o cesto auxiliar de roupas limpas como referência para medir a capacidade ideal da secadora. É fundamental que as roupas estejam bem centrifugadas e dentro da capacidade indicada, para que o ciclo de 45 minutos seja suficiente para uma secagem eficiente.' },
     { q: 'A máquina já finalizou, mas ainda tem roupas dentro. Posso retirar para usar?', a: 'Sim. Conforme nossas condições de uso, se o ciclo já foi finalizado e o responsável pelas roupas não estiver presente, você pode retirar as peças para utilizar a máquina. Pedimos apenas que utilize os cestos auxiliares de roupas limpas para acomodá-las e deixe-as organizadas embaixo da mesa de apoio. Assim mantemos o fluxo da lavanderia funcionando e garantimos respeito entre todos os clientes.' },
