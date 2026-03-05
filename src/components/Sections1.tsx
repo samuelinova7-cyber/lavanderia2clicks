@@ -48,7 +48,7 @@ const Header = () => {
             </a>
           ))}
           <a 
-            href="https://wa.me/message/4LRPJ3HSDEXXB1" 
+            href="https://wa.me/5511983499718" 
             target="_blank" 
             rel="noreferrer"
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold text-sm transition-colors flex items-center gap-2 shadow-md shadow-blue-600/20"
@@ -92,7 +92,7 @@ const Header = () => {
                 </a>
               ))}
               <a 
-                href="https://wa.me/message/4LRPJ3HSDEXXB1" 
+                href="https://wa.me/5511983499718" 
                 target="_blank" 
                 rel="noreferrer"
                 className="bg-blue-600 text-white px-6 py-4 rounded-xl font-bold text-center flex justify-center items-center gap-2 mt-4"

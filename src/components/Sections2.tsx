@@ -163,11 +163,11 @@ const InstagramSection = () => {
   return (
     <section className="py-20 bg-slate-900 text-white overflow-hidden">
       <div className="container mx-auto px-4 text-center mb-12">
-        <a href="https://www.instagram.com/2clicks_lavanderia?igsh=cWJnMGo3c3N2eHcx" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 mb-6 hover:scale-110 transition-transform">
+        <a href="https://www.instagram.com/2clicks_lavanderia?igsh=MTZkeWl4NGVjcDJ0aA==" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 mb-6 hover:scale-110 transition-transform">
           <Instagram size={32} className="text-white" />
         </a>
         <h2 className="text-3xl md:text-4xl font-black mb-4">
-          <a href="https://www.instagram.com/2clicks_lavanderia?igsh=cWJnMGo3c3N2eHcx" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.instagram.com/2clicks_lavanderia?igsh=MTZkeWl4NGVjcDJ0aA==" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-colors">
             Siga a @2clickslavanderia
           </a>
         </h2>
@@ -178,7 +178,7 @@ const InstagramSection = () => {
       <div className="relative w-full flex overflow-x-hidden">
         <div className="animate-marquee flex whitespace-nowrap gap-4 py-4">
           {images.map((img, i) => (
-            <a key={i} href="https://www.instagram.com/2clicks_lavanderia?igsh=cWJnMGo3c3N2eHcx" target="_blank" rel="noreferrer" className="flex-shrink-0 hover:opacity-80 transition-opacity">
+            <a key={i} href="https://www.instagram.com/2clicks_lavanderia?igsh=MTZkeWl4NGVjcDJ0aA==" target="_blank" rel="noreferrer" className="flex-shrink-0 hover:opacity-80 transition-opacity">
               <img 
                 src={img} 
                 alt={`Instagram Post ${i + 1}`} 
@@ -190,7 +190,7 @@ const InstagramSection = () => {
         </div>
         <div className="animate-marquee flex whitespace-nowrap gap-4 py-4 absolute top-0 left-full">
           {images.map((img, i) => (
-            <a key={`dup-${i}`} href="https://www.instagram.com/2clicks_lavanderia?igsh=cWJnMGo3c3N2eHcx" target="_blank" rel="noreferrer" className="flex-shrink-0 hover:opacity-80 transition-opacity">
+            <a key={`dup-${i}`} href="https://www.instagram.com/2clicks_lavanderia?igsh=MTZkeWl4NGVjcDJ0aA==" target="_blank" rel="noreferrer" className="flex-shrink-0 hover:opacity-80 transition-opacity">
               <img 
                 src={img} 
                 alt={`Instagram Post ${i + 1}`} 
@@ -276,12 +276,14 @@ const Units = () => {
       address: 'Av. Japão – Mogi das Cruzes',
       desc: 'Estrutura moderna com estacionamento exclusivo, ambiente 100% monitorado e espaço confortável para toda a família. Tecnologia profissional e atendimento dedicado para uma experiência 2 Clicks completa.',
       mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.883738561128!2d-46.2081541!3d-23.5366835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMyJzEyLjEiUyA0NsKwMTInMjkuNCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr',
+      mapLink: 'https://share.google/uDiD8FJxSbAcrSns6',
     },
     {
       name: 'Unidade Mogi Moderno',
       address: 'Rua Dr. Deodato Wertheimer – Mogi das Cruzes',
       desc: 'Ambiente prático e funcional no coração do bairro, com máquinas profissionais, fluxo otimizado e atendimento ágil. Ideal para quem busca eficiência e praticidade sem abrir mão da qualidade 2 Clicks.',
       mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.883738561128!2d-46.2081541!3d-23.5366835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMyJzEyLjEiUyA0NsKwMTInMjkuNCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr',
+      mapLink: 'https://share.google/4z69emgI8Qtx7LbiK',
     }
   ];
 
@@ -310,10 +312,10 @@ const Units = () => {
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="#" className="flex-1 text-center bg-slate-100 hover:bg-slate-200 text-slate-900 py-3.5 rounded-xl font-bold transition-colors">
+                  <a href={unit.mapLink} target="_blank" rel="noreferrer" className="flex-1 text-center bg-slate-100 hover:bg-slate-200 text-slate-900 py-3.5 rounded-xl font-bold transition-colors">
                     Como Chegar
                   </a>
-                  <a href="https://wa.me/message/4LRPJ3HSDEXXB1" target="_blank" rel="noreferrer" className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-3.5 rounded-xl font-bold transition-colors">
+                  <a href="https://wa.me/5511983499718" target="_blank" rel="noreferrer" className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-3.5 rounded-xl font-bold transition-colors">
                     Falar no WhatsApp
                   </a>
                 </div>
@@ -363,7 +365,7 @@ const Testimonials = () => {
               A 2 Clicks é reconhecida pelos clientes pela praticidade, limpeza do ambiente e qualidade das máquinas. Temos mais de 650 avaliações no Google, deixe a sua também!
             </p>
           </div>
-          <a href="https://g.page/r/CcStKfECPpBMEBM" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold transition-colors shadow-lg shadow-blue-600/20 whitespace-nowrap">
+          <a href="https://g.page/r/Cew9iD9yhuUdEBM/review" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold transition-colors shadow-lg shadow-blue-600/20 whitespace-nowrap">
             Avaliar no Google
             <div className="flex text-white">
               <Star fill="currentColor" size={16} />
@@ -470,10 +472,10 @@ const Sneakers = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://wa.me/message/4LRPJ3HSDEXXB1" target="_blank" rel="noreferrer" className="text-center bg-white text-blue-600 px-8 py-4 rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-lg">
+              <a href="https://wa.me/5511983499718" target="_blank" rel="noreferrer" className="text-center bg-white text-blue-600 px-8 py-4 rounded-xl font-bold transition-colors flex items-center justify-center gap-2 shadow-lg">
                 Falar com Especialista <ChevronRight size={18} />
               </a>
-              <a href="#" className="text-center bg-transparent border border-white/30 hover:bg-white/10 text-white px-8 py-4 rounded-xl font-bold transition-colors flex items-center justify-center gap-2">
+              <a href="https://2-clicks-sneakers.vercel.app/" className="text-center bg-transparent border border-white/30 hover:bg-white/10 text-white px-8 py-4 rounded-xl font-bold transition-colors flex items-center justify-center gap-2">
                 Visitar Site Sneakers <ChevronRight size={18} />
               </a>
             </div>
@@ -517,10 +519,10 @@ const Footer = () => {
         </div>
         
         <div className="flex items-center gap-4">
-          <a href="https://www.instagram.com/2clicks_lavanderia?igsh=cWJnMGo3c3N2eHcx" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
+          <a href="https://www.instagram.com/2clicks_lavanderia?igsh=MTZkeWl4NGVjcDJ0aA==" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
             <Instagram size={20} />
           </a>
-          <a href="https://wa.me/message/4LRPJ3HSDEXXB1" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-green-500 transition-colors">
+          <a href="https://wa.me/5511983499718" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-green-500 transition-colors">
             <MessageCircle size={20} />
           </a>
         </div>
@@ -536,7 +538,7 @@ const Footer = () => {
 const FloatingWhatsApp = () => {
   return (
     <a 
-      href="https://wa.me/message/4LRPJ3HSDEXXB1" 
+      href="https://wa.me/5511983499718" 
       target="_blank" 
       rel="noreferrer"
       className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-all z-50"
