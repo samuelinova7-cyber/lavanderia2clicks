@@ -381,7 +381,7 @@ const Testimonials = () => {
       <div className="relative w-full flex overflow-x-hidden pb-8">
         <div className="animate-marquee flex whitespace-nowrap gap-6 py-4 px-3">
           {reviews.map((review, idx) => (
-            <div key={idx} className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-[320px] flex-shrink-0 whitespace-normal flex flex-col h-full">
+            <div key={idx} className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-[320px] flex-shrink-0 whitespace-normal flex flex-col min-h-[400px]">
               <div className="flex text-yellow-400 mb-6">
                 {[...Array(review.rating)].map((_, i) => <Star key={i} fill="currentColor" size={16} />)}
               </div>
@@ -400,7 +400,7 @@ const Testimonials = () => {
         </div>
         <div className="animate-marquee flex whitespace-nowrap gap-6 py-4 px-3 absolute top-0 left-full">
           {reviews.map((review, idx) => (
-            <div key={`dup-${idx}`} className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-[320px] flex-shrink-0 whitespace-normal flex flex-col h-full">
+            <div key={`dup-${idx}`} className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] w-[320px] flex-shrink-0 whitespace-normal flex flex-col min-h-[400px]">
               <div className="flex text-yellow-400 mb-6">
                 {[...Array(review.rating)].map((_, i) => <Star key={i} fill="currentColor" size={16} />)}
               </div>
